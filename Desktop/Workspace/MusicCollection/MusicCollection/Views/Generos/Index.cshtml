@@ -1,0 +1,59 @@
+﻿@model MusicCollection.Models.GeneroViewModel
+
+@{
+    ViewData["Title"] = "Índice";
+}
+
+<h1>Indice</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear</a>
+</p>
+
+<form asp-controller="Generos">
+    <p>Genero: </p>
+    <input type="text" asp-for="Busqueda"/>
+
+    <select asp-for="FiltroGenero" asp-items="Model.ListaGeneros">
+        <option value="">Todos</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary btn-sm">Buscar</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Generos[0].Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Generos[0].Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Generos[0].FechaCreacion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Generos) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaCreacion)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-success">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

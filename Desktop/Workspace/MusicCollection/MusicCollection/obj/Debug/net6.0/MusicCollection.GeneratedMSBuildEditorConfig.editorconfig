@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MusicCollection
+build_property.RootNamespace = MusicCollection
+build_property.ProjectDir = /Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Generos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJvcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Generos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJvcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Generos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJvcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Generos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJvcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Generos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR2VuZXJvcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/HolaMundo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9sYU11bmRvL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/HolaMundo/Tabla.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9sYU11bmRvL1RhYmxhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Musicas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNhcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Musicas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNhcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Musicas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNhcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Musicas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNhcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Musicas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNhcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Musicas/Resumen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNhcy9SZXN1bWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lielysantana12/Desktop/Workspace/MusicCollection/MusicCollection/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mavptziua8

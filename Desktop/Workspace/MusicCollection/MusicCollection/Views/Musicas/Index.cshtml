@@ -1,0 +1,70 @@
+﻿@model MusicCollection.Models.MusicaViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="Musicas">
+    <p>Artista: </p>
+    <input type="text" asp-for="Busqueda"/>
+
+    <select asp-for="FiltroGenero" asp-items="Model.ListaGeneros">
+        <option value="">Todos</option>
+    </select>
+    <button type="submit" class="btn btn-primary btn-sm">Buscar</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Musica[0].Artista)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Musica[0].Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Musica[0].Ano)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Musica[0].Formato)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Musica[0].Genero)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Musica) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artista)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ano)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Formato)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genero.Nombre)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
